@@ -1,0 +1,8 @@
+BUILD
+RPMS
+SOURCES/*.tar.gz
+SOURCES/*.tar.bz2
+SOURCES/lib*
+SOURCES/megacli*
+SOURCES/storcli*
+SRPMS
