@@ -1,11 +1,11 @@
 Name:			megaraid-utils
 Version:		1.8
 Release:		2%{?dist}
-Summary:		LSI megacli/storcli tools
+Summary:		MegaRAID megacli/storcli tools
 
 Group:			Applications/System
-License:		LSI Logic Corporation
-URL:			http://www.lsi.com
+License:		Broadcom licensing
+URL:			https://www.broadcom.com
 Source0:		megacli-8.07.14
 Source1:		storcli-1.23.02
 Source2:		libstorelibir-2.so.14.07-0
@@ -15,7 +15,7 @@ BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Requires: mutt
 
 %description
-MegaCLI and StorCLI are used to manage SAS RAID controllers. It also includes a report scripts of your controller status.
+MegaCLI and StorCLI are used to manage MegaRAID SAS RAID controllers. It also includes a report scripts of your controller status.
 
 %prep
 %setup -q -c -T
